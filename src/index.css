@@ -1,0 +1,30 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #131314;
+}
+
+.containerCard{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.container p, h1{
+  color: #1dc794;
+}
+
+.container p{
+  font-size: 20px;
+  margin: 8px;
+}

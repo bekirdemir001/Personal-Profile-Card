@@ -1,0 +1,42 @@
+.card{
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    background-color: #1dc794;
+    border-radius: 16px;
+    width: 250px;
+}
+
+.cardTitle{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid#010000;
+}
+
+.cardTitle img{
+    border-radius: 50%;
+    border: 2px solid;
+    margin-right: 8px;
+    margin-bottom: 16px
+}
+
+.cardTitle h2{
+    font-size: 20px;
+    color: #010000;
+}
+
+.cardInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardInfo div{
+    display: flex;
+}
+
+.cardInfo p{
+    font-size: 16px;
+    margin-left: 8px;
+    color: #010000;
+}
