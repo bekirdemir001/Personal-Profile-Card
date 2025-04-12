@@ -1,9 +1,9 @@
 import React from "react"
-import "./css/ProfileCard.css"
-import emailIcon from "./assets/mail.svg"
-import phoneIcon from "./assets/phone.svg"
-import calenderIcon from "./assets/calendar.svg"
-import nationalityIcon from "./assets/nationality.svg"
+import "../css/ProfileCard.css"
+import emailIcon from "../assets/mail.svg"
+import phoneIcon from "../assets/phone.svg"
+import calenderIcon from "../assets/calendar.svg"
+import nationalityIcon from "../assets/nationality.svg"
 
 function ProfileCard ({user}) {
     const {name, location, email, dob, phone, picture} = user
